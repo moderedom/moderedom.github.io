@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply text-mdm-grey text-base;
+
+}
+
+.p-tg {
+  @apply text-gray-500 text-base text-wrap;
+}
+
+h1 {
+  @apply text-lg
+}
+
+h2 {
+  @apply text-lg
+}
+
+span.tg-hash {
+  @apply italic break-all
+}
+
+.btn {
+  @apply shadow-md py-3 px-3 rounded-md transition duration-300;
+}
+
+.btn-purple {
+  @apply bg-mdm-purple text-white hover:bg-mdm-white hover:text-black;
+}
+
+.btn-white {
+  @apply bg-mdm-white hover:bg-mdm-purple hover:text-white;
+}
+
