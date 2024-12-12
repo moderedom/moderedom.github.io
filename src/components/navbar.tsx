@@ -1,4 +1,4 @@
-import logo from "@/../public/logo_in_work.png";
+import logo from "@/../public/assets/images/logo_in_work.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
