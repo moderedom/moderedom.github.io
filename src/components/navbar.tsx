@@ -9,7 +9,9 @@ const Navbar = () => {
         <header>
             <nav className="container flex items-center py-4 mt-4">
                 <div className="py-1">
-                    <Image src={logo} alt="Moderedom logo" width={60}/>
+                    <Link href="/">
+                      <Image src={logo} alt="Moderedom logo" width={60}/>
+                    </Link>
                 </div>
                 <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-mdm-blue uppercase text-sm">
                     <li><Link href="/" className="hover:underline">Home</Link></li>

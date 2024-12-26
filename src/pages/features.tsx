@@ -1,3 +1,4 @@
+import Head from "next/head";
 
 const items = [
     {
@@ -40,18 +41,23 @@ export default function FeaturesPage() {
     })
 
     return (
-        <div className="container w-full flex flex-col lg:flex-row items-center gap-12 mt-14 lg:mt-28">
-            <div className="flex flex-col w-full items-center lg:items-start">
-                <FeaturesItems/>
+        <>
+            <Head>
+                <title>Moderedom | Features</title>
+            </Head>
+            <div className="container w-full flex flex-col lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                <div className="flex flex-col w-full items-center lg:items-start">
+                    <FeaturesItems/>
 
 
-                <h2 className="text-4xl text-center lg:text-left my-3"></h2>
-                <p className="text-center text-lg lg:text-left my-3"></p>
-                <h2 className="text-4xl text-center lg:text-left my-3"></h2>
-                <p className="text-center text-lg lg:text-left my-3"></p>
-                <h2 className="text-4xl text-center lg:text-left my-3"></h2>
-                <p className="text-center text-lg lg:text-left my-3"></p>
+                    <h2 className="text-4xl text-center lg:text-left my-3"></h2>
+                    <p className="text-center text-lg lg:text-left my-3"></p>
+                    <h2 className="text-4xl text-center lg:text-left my-3"></h2>
+                    <p className="text-center text-lg lg:text-left my-3"></p>
+                    <h2 className="text-4xl text-center lg:text-left my-3"></h2>
+                    <p className="text-center text-lg lg:text-left my-3"></p>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
