@@ -18,6 +18,7 @@ export default {
         "mdm-blue": "#242A45",
         "mdm-grey": "#9194A2",
         "mdm-white": "#f7f7f7",
+        "mdm-almost-black": "#0E151B",
       },
     },
     fontFamily: {
